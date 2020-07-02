@@ -1,0 +1,26 @@
+{
+    "name": "cobalt9",
+    "displayName": "Cobalt9 Theme",
+    "description": "cobalt9",
+    "publisher": "pydemia",
+    "version": "1.3.1",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Cobalt9",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Cobalt9-color-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pydemia/pydemia-vscode-syntax/cobalt9"
+    }
+}
