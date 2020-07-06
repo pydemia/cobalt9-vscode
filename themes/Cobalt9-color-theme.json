@@ -270,7 +270,8 @@
         "titleBar.inactiveForeground": "#cccccc99",
         "widget.shadow": "#000000"
     },
-    "tokenColors": [{
+    "tokenColors": [
+        {
             "name": "Comment",
             "scope": "comment",
             "settings": {
@@ -289,7 +290,7 @@
             "name": "Number",
             "scope": "constant.numeric",
             "settings": {
-                "foreground": "#FF628C"
+                "foreground": "#FB71A3"
             }
         },
         {
@@ -322,14 +323,14 @@
                 "foreground": "#FF9D00"
             }
         },
-        {
-            "name": "Storage",
-            "scope": "storage",
-            "settings": {
-                "fontStyle": "",
-                "foreground": "#ffc000"
-            }
-        },
+        // {
+        //     "name": "Storage",
+        //     "scope": "storage",
+        //     "settings": {
+        //         "fontStyle": "",
+        //         "foreground": "#ffc000"
+        //     }
+        // },
         {
             "name": "Storage type",
             "scope": "storage.type",
@@ -343,7 +344,7 @@
             "scope": "entity.name.type, entity.name.class",
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#FFDD00"
+                "foreground": "#D7BA7D"
             }
         },
         {
@@ -416,6 +417,14 @@
             "settings": {
                 "fontStyle": "",
                 "foreground": "#7DD961"
+            }
+        },
+        {
+            "name": "Library variable",
+            "scope": "punctuation",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#F8F8F8"
             }
         },
         {
@@ -562,7 +571,15 @@
             "scope": "variable.language",
             "settings": {
                 "fontStyle": "",
-                "foreground": "#FD971F"
+                "foreground": "#66D9EF"
+            }
+        },
+        {
+            "name": "variable.language.this",
+            "scope": "variable.language.this",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#66D9EF"
             }
         },
         {
@@ -594,7 +611,7 @@
             "scope": "punctuation.definition.decorator.python, entity.name.function.decorator.python, meta.function.decorator.python",
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#F92672"
+                "foreground": "#FB71A3"
             }
         },
         {
@@ -626,7 +643,7 @@
             "scope": "entity.name.type.class.python",
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#F92672"
+                "foreground": "#D7BA7D"
             }
         },
         {
@@ -643,6 +660,266 @@
             "settings": {
                 "fontStyle": "",
                 "foreground": "#06a6a8"
+            }
+        },
+        // JSON
+        {
+            "name": "punctuation.definition.comment.json.comments",
+            "scope": "punctuation.definition.comment.json.comments",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#D7BA7D"
+            }
+        },
+        // JAVA
+        {
+            "name": "storage.modifier.package.java",
+            "scope": "storage.modifier.package.java",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#D7BA7D"
+            }
+        },
+        {
+            "name": "storage.modifier.import.java",
+            "scope": "storage.modifier.import.java",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#D7BA7D"
+            }
+        },
+        {
+            "name": "meta.import.java",
+            "scope": "meta.import.java",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#D7BA7D"
+            }
+        },
+        {
+            "name": "meta.method.body.java",
+            "scope": "meta.method.body.java",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#F8F8F8"
+            }
+        },
+        {
+            "name": "meta.method.java",
+            "scope": "meta.method.java",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#D7BA7D"
+            }
+        },
+        {
+            "name": "meta.class.body.java",
+            "scope": "meta.class.body.java",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#F8F8F8"
+            }
+        },
+        {
+            "name": "string.quoted.double.java",
+            "scope": "string.quoted.double.java",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#3ad900"
+            }
+        },
+        {
+            "name": "meta.package.java",
+            "scope": "meta.package.java",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#D7BA7D"
+            }
+        },
+        {
+            "name": "meta.declaration.annotation.java",
+            "scope": "meta.declaration.annotation.java, storage.type.annotation.java, punctuation.definition.annotation.java",
+            "settings": {
+                "fontStyle": "bold italic",
+                "foreground": "#FB71A3"
+            }
+        },
+        {
+            "name": "entity.name.type.class.java",
+            "scope": "entity.name.type.class.java",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#D7BA7D"
+            }
+        },
+        {
+            "name": "constant.other.key.java",
+            "scope": "constant.other.key.java",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#F4ABA4"
+            }
+        },
+        {
+            "name": ",meta.method.java",
+            "scope": ",meta.method.java",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#FA4789"
+            }
+        },
+        {
+            "name": "meta.method.identifier.java",
+            "scope": "meta.method.identifier.java",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#F92672"
+            }
+        },
+        {
+            "name": "storage.type.generic.java",
+            "scope": "storage.type.generic.java",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#D7BA7D"
+            }
+        },
+        {
+            "name": "meta.definition.variable.java",
+            "scope": "meta.definition.variable.java",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#FB71A3"
+            }
+        },
+        {
+            "name": "storage.modifier.java",
+            "scope": "storage.modifier.java",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#FF9D00"
+            }
+        },
+        {
+            "name": "meta.throwables.java",
+            "scope": "meta.throwables.java",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#D7BA7D"
+            }
+        },
+        {
+            "name": "storage.type.java",
+            "scope": "storage.type.java",
+            "settings": {
+                "fontStyle": "bold italic",
+                "foreground": "#D7BA7D"
+            }
+        },
+        {
+            "name": "variable.other.definition.java",
+            "scope": "variable.other.definition.java",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#F8F8F8"
+            }
+        },
+        {
+            "name": "variable.other.object.property.java",
+            "scope": "variable.other.object.property.java",
+            "settings": {
+                "fontStyle": "bold italic",
+                "foreground": "#FFDBC7"
+            }
+        },
+        {
+            "name": "variable.other.object.java",
+            "scope": "variable.other.object.java",
+            "settings": {
+                "fontStyle": "italic bold",
+                "foreground": "#FB94FF" // FFDBC7 FDA5FF
+            }
+        },
+        {
+            "name": "meta.method.return-type.java",
+            "scope": "meta.method.return-type.java",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#D7BA7D"
+            }
+        },
+        // Kotlin
+        {
+            "name": "entity.name.type.annotation.kotlin",
+            "scope": "entity.name.type.annotation.kotlin, entity.name.type.annotation.kotlin",
+            "settings": {
+                "fontStyle": "bold italic",
+                "foreground": "#FB71A3"
+            }
+        },
+        {
+            "name": "entity.name.type.annotation.kotlin",
+            "scope": "entity.name.type.annotation.kotlin, entity.name.type.annotation.kotlin",
+            "settings": {
+                "fontStyle": "bold italic",
+                "foreground": "#FB71A3"
+            }
+        },
+        {
+            "name": "entity.name.package.kotlin",
+            "scope": "entity.name.package.kotlin, meta.import.kotlin",
+            "settings": {
+                "fontStyle": "bold italic",
+                "foreground": "#D7BA7D"
+            }
+        },
+        
+        {
+            "name": "storage.modifier.other.kotlin",
+            "scope": "storage.modifier.other.kotlin",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#FF9D00"
+            }
+        },
+        {
+            "name": "storage.type.class.kotlin",
+            "scope": "storage.type.class.kotlin",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#D7BA7D"
+            }
+        },
+        {
+            "name": "entity.name.type.kotlin",
+            "scope": "entity.name.type.kotlin",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#D7BA7D"
+            }
+        },
+        {
+            "name": "storage.type.variable.kotlin",
+            "scope": "storage.type.variable.kotlin",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#FF9D00"
+            }
+        },
+        {
+            "name": "meta.template.expression.kotlin",
+            "scope": "meta.template.expression.kotlin",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#F4ABA4"
+            }
+        },
+        {
+            "name": "keyword.soft.kotlin",
+            "scope": "keyword.soft.kotlin",
+            "settings": {
+                "fontStyle": "bold italic",
+                "foreground": "#FB71A3"
             }
         }
     ]
