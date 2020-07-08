@@ -273,7 +273,7 @@
     "tokenColors": [
         {
             "name": "Comment",
-            "scope": "comment",
+            "scope": "comment, punctuation.definition.comment",
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#0088FF"
@@ -420,8 +420,8 @@
             }
         },
         {
-            "name": "Library variable",
-            "scope": "punctuation",
+            "name": "section block symbol",
+            "scope": "punctuation.bracket, punctuation.section.class.begin.bracket.curly, punctuation.section.class.begin.bracket.curly, punctuation.section.method.begin.bracket.curly, punctuation.section.method.end.bracket.curly",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#F8F8F8"
