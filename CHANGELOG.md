@@ -4,6 +4,16 @@ All notable changes to the "cobalt9" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.5.2] - 2026-09-29
+
+- Restore the original Cobalt9 blue background and the classic Cobalt roles:
+  blue comments, orange keywords, green strings, gold definitions, and pink
+  constants.
+- Keep declarations distinct from references and calls: gold classes, bright
+  yellow type references, hot-pink function declarations, and blue calls.
+- Use mint for built-ins, magenta for properties, and near-white operators.
+- Refresh the Python and Java screenshots with the Cobalt-derived palette.
+
 ## [1.5.1] - 2026-09-28
 
 - Separate declaration, call, type reference, property, and built-in colors.

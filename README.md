@@ -1,7 +1,8 @@
 # Cobalt9 Theme
 
-A dark navy theme by pydemia, inspired by Cobalt2. Version 1.5 revises the
-editor, workbench, syntax colors, and integrated terminal palette.
+A Cobalt-derived theme by pydemia. The dark navy background retains the
+original Cobalt9 color while the syntax palette follows classic Cobalt's
+orange keywords, gold names, blue comments, green strings, and pink constants.
 
 ## Screenshots
 
@@ -11,16 +12,17 @@ editor, workbench, syntax colors, and integrated terminal palette.
 
 | Role | Color |
 | --- | --- |
-| Background | `#071B2C` |
-| Text | `#DAEAF3` |
-| Comments | `#82A3B8` |
-| Keywords | `#F7A865` |
-| Class declarations | `#F0D77F` |
-| Type references | `#F4CF66` |
-| Function declarations | `#F271A5` |
-| Function calls | `#7DBDEB` |
-| Built-in functions | `#E6F0F4` |
-| Properties | `#E1A0C9` |
-| Strings | `#9DD18D` |
-| Numbers and constants | `#D18FD8` |
-| Variables and parameters | `#DAEAF3` |
+| Background | `#072539` |
+| Text | `#F2F7FF` |
+| Comments | `#388DD8` |
+| Statements and control keywords | `#FF9D00` |
+| Storage and declaration modifiers | `#FFB454` |
+| Class declarations | `#FFC600` |
+| Type references | `#FFE55C` |
+| Function declarations | `#F92672` |
+| Function calls | `#69BFFF` |
+| Built-in functions | `#80FFBB` |
+| Properties | `#FB94FF` |
+| Strings | `#63DE42` |
+| Numbers and constants | `#FF628C` |
+| Variables and parameters | `#F2F7FF` |
