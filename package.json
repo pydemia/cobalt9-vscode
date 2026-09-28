@@ -3,7 +3,7 @@
     "displayName": "Cobalt9 Theme",
     "description": "cobalt9",
     "publisher": "pydemia",
-    "version": "1.4.2",
+    "version": "1.5.1",
     "icon": "images/cobalt9_logo.png",
     "engines": {
         "vscode": "^1.33.0"
@@ -22,6 +22,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/pydemia/pydemia-vscode-syntax/cobalt9"
+        "url": "https://github.com/pydemia/cobalt9-vscode"
     }
 }
