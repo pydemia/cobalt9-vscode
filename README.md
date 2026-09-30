@@ -21,10 +21,10 @@ colors distinguish declarations from references and calls.
 | Function declarations | `#F92672` |
 | Function calls | `#FFC600` |
 | Built-in functions | `#FF9D00` |
-| Variables | `#FB94FF` |
-| Parameters | `#F4ABA4` |
-| Properties | `#FFDBC7` |
+| Variables and instance names | `#FFFFFF` |
+| Parameters | `#FFFFFF` |
+| Properties | `#FFFFFF` |
 | Strings | `#3AD900` |
 | Numbers | `#FB71A3` |
 | Built-in constants | `#FF628C` |
-| Operators | `#F8F8F8` |
+| Operators | `#B267E6` |

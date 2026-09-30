@@ -285,10 +285,11 @@
         "method": "#FFC600",
         "method.declaration": { "foreground": "#F92672", "bold": true },
         "method.defaultLibrary": { "foreground": "#FF9D00", "italic": true },
-        "property": "#FFDBC7",
-        "parameter": { "foreground": "#F4ABA4", "italic": true },
-        "variable": "#FB94FF",
-        "variable.readonly": "#FF628C",
+        "property": "#FFFFFF",
+        "parameter": { "foreground": "#FFFFFF", "italic": true },
+        "variable": "#FFFFFF",
+        "variable.readonly": "#FFFFFF",
+        "operator": "#B267E6",
         "enumMember": "#FF628C"
     },
     "tokenColors": [
@@ -340,14 +341,14 @@
             "scope": "variable",
             "settings": {
                 "fontStyle": "",
-                "foreground": "#FB94FF"
+                "foreground": "#FFFFFF"
             }
         },
         {
             "name": "Property",
             "scope": "variable.other.property",
             "settings": {
-                "foreground": "#FFDBC7"
+                "foreground": "#FFFFFF"
             }
         },
         {
@@ -370,14 +371,14 @@
             "name": "Operator",
             "scope": "keyword.operator",
             "settings": {
-                "foreground": "#F8F8F8"
+                "foreground": "#B267E6"
             }
         },
         {
             "name": "Logical operator",
             "scope": "keyword.operator.logical",
             "settings": {
-                "foreground": "#FF9D00"
+                "foreground": "#B267E6"
             }
         },
         {
@@ -424,7 +425,7 @@
             "scope": "variable.parameter",
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#f4aba4"
+                "foreground": "#FFFFFF"
             }
         },
         {
@@ -472,7 +473,7 @@
             "scope": "support.other.variable",
             "settings": {
                 "fontStyle": "",
-                "foreground": "#7DD961"
+                "foreground": "#FFFFFF"
             }
         },
         {
@@ -627,7 +628,7 @@
             "scope": "variable.language",
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#66D9EF"
+                "foreground": "#FFFFFF"
             }
         },
         {
@@ -635,7 +636,7 @@
             "scope": "variable.language.this",
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#66D9EF"
+                "foreground": "#FFFFFF"
             }
         },
         {
@@ -651,7 +652,7 @@
             "scope": "meta.function.lambda.parameters",
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#f4aba4"
+                "foreground": "#FFFFFF"
             }
         },
         {
@@ -659,7 +660,7 @@
             "scope": "variable.parameter.function.language.special.self.python, variable.language.special.self.python",
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#4FFFF8"
+                "foreground": "#FFFFFF"
             }
         },
         {
@@ -690,7 +691,7 @@
             "name": "Python attribute",
             "scope": "meta.attribute.python",
             "settings": {
-                "foreground": "#FFDBC7"
+                "foreground": "#FFFFFF"
             }
         },
         {
@@ -851,8 +852,8 @@
             "name": "meta.definition.variable.java",
             "scope": "meta.definition.variable.java",
             "settings": {
-                "fontStyle": "bold",
-                "foreground": "#FB71A3"
+                "fontStyle": "",
+                "foreground": "#FFFFFF"
             }
         },
         {
@@ -892,15 +893,15 @@
             "scope": "variable.other.object.property.java",
             "settings": {
                 "fontStyle": "",
-                "foreground": "#FFDBC7"
+                "foreground": "#FFFFFF"
             }
         },
         {
             "name": "variable.other.object.java",
             "scope": "variable.other.object.java",
             "settings": {
-                "fontStyle": "italic bold",
-                "foreground": "#FB94FF"
+                "fontStyle": "",
+                "foreground": "#FFFFFF"
             }
         },
         {

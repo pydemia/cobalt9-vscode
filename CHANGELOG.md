@@ -4,6 +4,12 @@ All notable changes to the "cobalt9" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.5.4] - 2026-09-30
+
+- Use white for variables, parameters, instance names, and properties.
+- Color symbolic and logical operators purple while leaving punctuation near white.
+- Refresh the Python and Java screenshots.
+
 ## [1.5.3] - 2026-09-29
 
 - Restore the original Cobalt9 syntax and workbench colors for most roles.
