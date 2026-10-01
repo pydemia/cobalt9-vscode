@@ -4,6 +4,11 @@ All notable changes to the "cobalt9" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.5.6] - 2026-10-01
+
+- Shift Python parameter declarations and keyword argument names from pinkish
+  salmon to a clearer peach.
+
 ## [1.5.5] - 2026-10-01
 
 - Color Python parameter declarations and keyword argument names peach.

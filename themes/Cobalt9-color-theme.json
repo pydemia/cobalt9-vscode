@@ -287,8 +287,8 @@
         "method.defaultLibrary": { "foreground": "#FF9D00", "italic": true },
         "property": "#FFFFFF",
         "parameter": { "foreground": "#FFFFFF", "italic": true },
-        "parameter.declaration:python": { "foreground": "#F4ABA4", "italic": true },
-        "parameter.keywordArgument:python": "#F4ABA4",
+        "parameter.declaration:python": { "foreground": "#FFC4A3", "italic": true },
+        "parameter.keywordArgument:python": "#FFC4A3",
         "variable": "#FFFFFF",
         "variable.readonly": "#FFFFFF",
         "operator": "#BA76E9",
@@ -435,14 +435,14 @@
             "scope": "variable.parameter.function.language.python",
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#F4ABA4"
+                "foreground": "#FFC4A3"
             }
         },
         {
             "name": "Python keyword argument name",
             "scope": "variable.parameter.function-call.python",
             "settings": {
-                "foreground": "#F4ABA4"
+                "foreground": "#FFC4A3"
             }
         },
         {

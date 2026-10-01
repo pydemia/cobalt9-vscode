@@ -23,7 +23,7 @@ colors distinguish declarations from references and calls.
 | Built-in functions | `#FF9D00` |
 | Variables and instance names | `#FFFFFF` |
 | Parameters | `#FFFFFF` |
-| Python parameter declarations and keyword argument names | `#F4ABA4` |
+| Python parameter declarations and keyword argument names | `#FFC4A3` |
 | Properties | `#FFFFFF` |
 | Strings | `#3AD900` |
 | Numbers | `#FB71A3` |

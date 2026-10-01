@@ -3,7 +3,7 @@
     "displayName": "Cobalt9 Theme",
     "description": "cobalt9",
     "publisher": "pydemia",
-    "version": "1.5.5",
+    "version": "1.5.6",
     "icon": "images/cobalt9_logo.png",
     "engines": {
         "vscode": "^1.33.0"
