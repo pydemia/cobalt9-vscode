@@ -272,24 +272,26 @@
     },
     "semanticHighlighting": true,
     "semanticTokenColors": {
-        "class": "#FFDD00",
+        "class": "#E5CA48",
         "class.declaration": { "foreground": "#D7BA7D", "bold": true },
-        "interface": "#FFDD00",
+        "interface": "#E5CA48",
         "interface.declaration": { "foreground": "#D7BA7D", "bold": true },
-        "struct": "#FFDD00",
-        "enum": "#FFDD00",
-        "type": "#FFDD00",
-        "function": "#FFC600",
+        "struct": "#E5CA48",
+        "enum": "#E5CA48",
+        "type": "#E5CA48",
+        "function": "#E2B40D",
         "function.declaration": { "foreground": "#F92672", "bold": true },
         "function.defaultLibrary": { "foreground": "#FF9D00", "italic": true },
-        "method": "#FFC600",
+        "method": "#E2B40D",
         "method.declaration": { "foreground": "#F92672", "bold": true },
         "method.defaultLibrary": { "foreground": "#FF9D00", "italic": true },
         "property": "#FFFFFF",
         "parameter": { "foreground": "#FFFFFF", "italic": true },
+        "parameter.declaration:python": { "foreground": "#F4ABA4", "italic": true },
+        "parameter.keywordArgument:python": "#F4ABA4",
         "variable": "#FFFFFF",
         "variable.readonly": "#FFFFFF",
-        "operator": "#B267E6",
+        "operator": "#BA76E9",
         "enumMember": "#FF628C"
     },
     "tokenColors": [
@@ -371,14 +373,14 @@
             "name": "Operator",
             "scope": "keyword.operator",
             "settings": {
-                "foreground": "#B267E6"
+                "foreground": "#BA76E9"
             }
         },
         {
             "name": "Logical operator",
             "scope": "keyword.operator.logical",
             "settings": {
-                "foreground": "#B267E6"
+                "foreground": "#BA76E9"
             }
         },
         {
@@ -393,7 +395,7 @@
             "name": "Type reference",
             "scope": "entity.name.type, support.type",
             "settings": {
-                "foreground": "#FFDD00"
+                "foreground": "#E5CA48"
             }
         },
         {
@@ -426,6 +428,21 @@
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#FFFFFF"
+            }
+        },
+        {
+            "name": "Python parameter name",
+            "scope": "variable.parameter.function.language.python",
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#F4ABA4"
+            }
+        },
+        {
+            "name": "Python keyword argument name",
+            "scope": "variable.parameter.function-call.python",
+            "settings": {
+                "foreground": "#F4ABA4"
             }
         },
         {
@@ -465,7 +482,7 @@
             "scope": "support.class",
             "settings": {
                 "fontStyle": "italic bold",
-                "foreground": "#FFDD00"
+                "foreground": "#E5CA48"
             }
         },
         {
@@ -684,7 +701,7 @@
             "scope": "meta.function-call.generic.python",
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#FFC600"
+                "foreground": "#E2B40D"
             }
         },
         {
@@ -837,7 +854,7 @@
             "scope": "meta.function-call.java entity.name.function.java, meta.method-call.java entity.name.function.java",
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#FFC600"
+                "foreground": "#E2B40D"
             }
         },
         {
@@ -845,7 +862,7 @@
             "scope": "storage.type.generic.java",
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#FFDD00"
+                "foreground": "#E5CA48"
             }
         },
         {
@@ -877,7 +894,7 @@
             "scope": "storage.type.java",
             "settings": {
                 "fontStyle": "bold italic",
-                "foreground": "#FFDD00"
+                "foreground": "#E5CA48"
             }
         },
         {
@@ -909,7 +926,7 @@
             "scope": "meta.method.return-type.java",
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#FFDD00"
+                "foreground": "#E5CA48"
             }
         },
         // Kotlin
@@ -959,7 +976,7 @@
             "scope": "entity.name.type.kotlin",
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#FFDD00"
+                "foreground": "#E5CA48"
             }
         },
         {

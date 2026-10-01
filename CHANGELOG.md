@@ -4,6 +4,13 @@ All notable changes to the "cobalt9" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.5.5] - 2026-10-01
+
+- Color Python parameter declarations and keyword argument names peach.
+- Keep ordinary parameter references white.
+- Lighten purple operators slightly.
+- Use distinct, less glaring yellows for types and function calls.
+
 ## [1.5.4] - 2026-09-30
 
 - Use white for variables, parameters, instance names, and properties.

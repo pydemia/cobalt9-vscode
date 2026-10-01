@@ -17,14 +17,15 @@ colors distinguish declarations from references and calls.
 | Statements and control keywords | `#FF9D00` |
 | Storage and declaration modifiers | `#FF9D00` |
 | Class declarations | `#D7BA7D` |
-| Type references | `#FFDD00` |
+| Type references | `#E5CA48` |
 | Function declarations | `#F92672` |
-| Function calls | `#FFC600` |
+| Function calls | `#E2B40D` |
 | Built-in functions | `#FF9D00` |
 | Variables and instance names | `#FFFFFF` |
 | Parameters | `#FFFFFF` |
+| Python parameter declarations and keyword argument names | `#F4ABA4` |
 | Properties | `#FFFFFF` |
 | Strings | `#3AD900` |
 | Numbers | `#FB71A3` |
 | Built-in constants | `#FF628C` |
-| Operators | `#B267E6` |
+| Operators | `#BA76E9` |
